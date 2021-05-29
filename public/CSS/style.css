@@ -1,0 +1,82 @@
+html {
+    background: url("../IMG/milky-way.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    margin:20px 0px 0px 0px;
+    height:80px;
+}
+
+body {
+    background-color: #0000008c;
+    margin: 0px;
+    color: #ffffff;
+    Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.body_content{
+    display:flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: space-between;
+}
+
+.content{
+    flex-direction: column;
+}
+
+.body-row{
+    margin-top:20px;
+    margin-bottom:20px;
+    flex-direction: column;
+    height:38vh;
+}
+
+.rotate {
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.headers{
+    text-align: center;
+}
+
+.center h2{
+    margin:5px;
+}
+
+.center h4{
+    margin:5px;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    bottom:0;
+}

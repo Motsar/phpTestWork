@@ -1,0 +1,52 @@
+form{
+    border:2px solid white;
+    border-radius:5px;
+    padding:30px;
+    min-width:550px;
+    max-width:550px;
+    background-color:inherit;
+}
+
+.error{
+    color:red;
+}
+
+.d-none{
+    display:none;
+}
+
+.errorInput {
+    border: 1px solid #fd0000;
+    border-radius: 2px;
+    background-color: #ff000036;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row div{
+    width:250px;
+    margin:10px;
+    justify-content: space-between
+}
+
+textarea{
+    width:500px;
+}
+
+.serverFeedback{
+    padding: 10px;
+    text-align:center;
+    height:50px;
+    width:500px;
+}
+
+.alert{
+    background-color: #ff000036;
+}
+
+.success{
+    background-color: rgba(73, 255, 0, 0.21);
+}
